@@ -11,7 +11,7 @@
 <a href="https://github.com/Pedro-Palacios0/FOD">
   <img width="265" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Pedro-Palacios0&repo=FOD&theme=neon&border_color=00E2CC"/>
 </a>
-<a href="https://github.com/Pedro-Palacios0/FOD">
+<a href="https://github.com/Pedro-Palacios0/Matematica-3">
   <img width="265" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Pedro-Palacios0&repo=Matematica-3&theme=neon&border_color=00E2CC"/>
 </a>
 </div>
