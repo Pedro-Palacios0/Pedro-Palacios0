@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" width="860" height="320">
+  <style>
+    .card {
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      transform-origin: center center;
+      transform-box: fill-box;
+    }
+    .card:hover { transform: scale(1.05); }
+    .card:hover .card-rect { stroke: #00d9a6; stroke-width: 1.5; }
+
+    .card-rect {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 1;
+      rx: 8;
+    }
+    .title { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; font-size: 13px; font-weight: 600; fill: #00d9a6; }
+    .desc  { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; font-size: 11px; fill: #ff6b8a; }
+    .lang  { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; font-size: 11px; fill: #8b949e; }
+    .heading { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; font-size: 22px; font-weight: 700; fill: #e6edf3; text-anchor: middle; }
+    .icon-rect { fill: none; stroke: #8b949e; stroke-width: 1.2; rx: 2; }
+  </style>
+
+  <rect width="860" height="320" fill="#0d1117" rx="12"/>
+
+  <text x="430" y="42" class="heading">Facultad de Informatica UNLP</text>
+
+  <!-- Card 1: Seminario -->
+  <g class="card">
+    <rect class="card-rect" x="16" y="60" width="260" height="120" rx="8"/>
+    <rect class="icon-rect" x="30" y="75" width="12" height="10" rx="2"/>
+    <text x="50" y="84" class="title">Seminario-de-Lenguajes-Python</text>
+    <text x="30" y="105" class="desc">Materia de segundo año de</text>
+    <text x="30" y="120" class="desc">Licenciatura en sistemas</text>
+    <circle cx="34" cy="153" r="5" fill="#3572A5"/>
+    <text x="44" y="157" class="lang">Jupyter Notebook</text>
+  </g>
+
+  <!-- Card 2: AYED -->
+  <g class="card">
+    <rect class="card-rect" x="300" y="60" width="260" height="120" rx="8"/>
+    <rect class="icon-rect" x="314" y="75" width="12" height="10" rx="2"/>
+    <text x="334" y="84" class="title">AYED</text>
+    <text x="314" y="105" class="desc">Algoritmos y Estructuras de Datos</text>
+    <text x="314" y="120" class="desc">materia de 2do año</text>
+    <circle cx="318" cy="153" r="5" fill="#b07219"/>
+    <text x="328" y="157" class="lang">Java</text>
+  </g>
+
+  <!-- Card 3: FOD -->
+  <g class="card">
+    <rect class="card-rect" x="584" y="60" width="260" height="120" rx="8"/>
+    <rect class="icon-rect" x="598" y="75" width="12" height="10" rx="2"/>
+    <text x="618" y="84" class="title">FOD</text>
+    <text x="598" y="105" class="desc">Fundamentos de Organización de Datos</text>
+    <text x="598" y="120" class="desc">materia de 2do año</text>
+    <circle cx="602" cy="153" r="5" fill="#b07219"/>
+    <text x="612" y="157" class="lang">Java</text>
+  </g>
+
+  <!-- Card 4: Matematica-3 (centrada) -->
+  <g class="card">
+    <rect class="card-rect" x="300" y="200" width="260" height="100" rx="8"/>
+    <rect class="icon-rect" x="314" y="215" width="12" height="10" rx="2"/>
+    <text x="334" y="224" class="title">Matematica-3</text>
+    <text x="314" y="245" class="desc">Materia de 3er año</text>
+  </g>
+</svg>
